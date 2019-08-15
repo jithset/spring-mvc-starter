@@ -7,12 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Hello Main menu</h1>
-	<a href="showForm">Go to form</a>
-	
-	<br>
-	<a href="student/addstudent">Add Student</a>
-	<br>
-	<a href="customer/customerform">Add Customer</a>
+	<h3>Form Submission Example</h3>
+	<form action="processform2">
+		<input type="text" name="username">
+		<button type="submit">Click Me!</button>
+	</form>
 </body>
 </html>
